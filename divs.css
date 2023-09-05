@@ -1,21 +1,32 @@
 .img{
-    float: right;
-    margin-right: 100px;
-    margin: 20px;
-    border: 2px solid white;
+    outline: solid rgb(125, 148, 141);
+    background-color: rgb(125, 148, 141);
+    width: fit-content;
+    height: fit-content;
 }
 
 .title{
-    background-color: rgba(2, 2, 2, 0.363);
+    background-color: rgba(2, 2, 2, 0.664);
     width: inherit;
     height: 100px;
     border: 0cm;
 }
 
+#sub{
+    border-top: 5px solid rgba(21, 97, 74, 0.616);
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+}
+
 .pag{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin: 20px;
+    background-color: rgba(2, 2, 2, 0.664);
+    border: 20px solid rgba(2, 2, 2, 0.363);
+    border-radius: 20px;
+    margin: 100px;
     width: inherit;
-    border: 2px solid black;
+}
+
+.rct{
+    width: 800px;
 }
